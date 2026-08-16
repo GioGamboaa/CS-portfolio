@@ -1,3 +1,5 @@
+https://github.com/GioGamboaa/CS-portfolio/blob/main/q1%20/q1_sg2_a1.md
+
 Annex A
 Computational Thinking Exercise: "Smart School Canteen Queue"
 
