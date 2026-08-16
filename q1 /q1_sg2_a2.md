@@ -6,6 +6,7 @@ Section: 9-Samat Score:____________
 C# / Name: #7 / Giovanni Roliz S Gamboa    Date: 8/16/2026
 Groupmates: Aryann Theodore Millo and Franco Mateo S.P Molina
 
+https://github.com/GioGamboaa/CS-portfolio/blob/main/q1%20/q1_sg2_a2.md
 
 Instructions:
 
