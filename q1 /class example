@@ -1,0 +1,26 @@
+class Car:
+  def __init__(self, brand, model, battery-35):
+    self.brand = brand
+    self.model= model
+    self.battery=battery
+  def go(self,distance):
+    self.battery -=distance/20
+    print(f"you have traveled {distance} and have {self.battery} wh left")
+  def charge(self,wh):
+    self.battery += wh
+    print(f"you recharged {wh} wh's")
+
+car = Car("Geely","EX5")
+while car.battery >0:
+  act = input("What do we do? (g or c) ")
+  if act == "g"
+    distance = int(input("how far"))
+    car.go(distance)
+  elif act=="c":
+    wh = int(input("how much charge?"))
+    car.charge(wh)
+  else:
+    print("invalid action")
+print("game over, you ran outta electircal energy")
+  
+                       
