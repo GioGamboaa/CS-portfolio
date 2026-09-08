@@ -1,0 +1,24 @@
+class Hero:
+    def __init__(self, name, hp):
+        self.name = name
+        self.hp = hp
+        
+        
+    def take_damage(self, amount):
+        self.hp -= amount
+        return (f" {self.name} lost {amount} health : {self.hp} remaning\n\n")
+        
+        
+Character1 = Hero("Arthur", 100)
+Character2 = Hero("Morgana", 100)
+
+print(f"{Character2.name} : {Character2.hp}\n")
+print(f"{Character1.name} : {Character1.hp}\n")
+
+
+stat = Character1.take_damage(10)
+
+print(stat)
+
+print(f"{Character2.name} : {Character2.hp}\n")
+print(f"{Character1.name} : {Character1.hp}\n")
