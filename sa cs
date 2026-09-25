@@ -1,0 +1,104 @@
+class Account :
+    def __init__ (self, acc_num, acc_name, acc_balance):
+    
+        self.__acc_balance = acc_balance
+        self.acc_name = acc_name
+        self.acc_num = acc_num
+        
+    def getbalance():
+        return self.__acc_balance
+        
+    def deposit(amount):
+        if 0<amount:
+            self.__acc_balance += amount
+            
+        else: 
+            print("invalid")
+            
+    def withdraw(amount):
+        if 0<amount<self.__acc_balance:
+            print(f"you withdrew {amount} from your balance")
+            
+        else:
+            print("invalid")
+            
+    def __str__():
+        return f"{self.acc_name}"
+        return f"[{self.acc_num}]"
+        return f"P {self.__acc_balance}"
+        
+            
+    def __del__(self):
+        print(f"[{self.acc_num}] is closed")
+        
+class Saving_Acc(Account):
+    
+    def __init__ (self, acc_num, acc_name, acc_balance, interest_rate):
+        super().__init__()
+        self.__interest= interest_rate
+        
+    def interest ():
+        self.__acc_balance += self.__acc_balance* (self.__interest / 100) 
+        
+class Bank:
+    
+    list_acc = []
+    
+    def __init__(self, name):
+        self.name = name 
+        
+        print("Opening account")
+        
+        acc_name = input("Account Name: ")
+        acc_num = input("Account number: ")
+        acc_type = input(" savings or checking : ")
+        
+        
+        self.name = acc_name
+        self.number = acc_num
+        self.acc_type = acc_type
+        
+        if acc_type == 'savings':
+                    
+            Saving_Acc (self.number, self.name, acc_balance = None, interest_rate = None).append(list_acc)
+                 
+        if acc_type == 'checking':
+                
+            Account (self.number, self.name, acc_balance = None).append(list_acc)
+                
+                
+        else: 
+            print("invalid")
+        
+    def showAccount(self):
+        print(Account.__str__)
+        
+    def openAccount(self):
+        
+            
+            
+                
+    def close__acc ():
+        Bank.__del__
+        
+    def __del__:
+        print(" Account closed ")
+                
+                
+mbtc = Bank("Metrobank")
+mbtc.openAccount()
+mbtc.openAccount()
+mbtc.showAccounts()
+mbtc.deposit()
+mbtc.deposit()
+mbtc.addInterest()
+mbtc.closeAccount()
+        
+        
+        
+        
+    
+    
+        
+    
+    
