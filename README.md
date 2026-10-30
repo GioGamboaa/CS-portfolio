@@ -15,3 +15,5 @@ sg5act1 = https://raw.githubusercontent.com/GioGamboaa/CS-portfolio/main/q1%20/q
 sg6 = https://raw.githubusercontent.com/GioGamboaa/CS-portfolio/main/q1%20/q1_sg6_Samat_Gamboa
 
 sg7 = https://raw.githubusercontent.com/GioGamboaa/CS-portfolio/main/q1%20/q1_sg7_samat_gamboa.py
+
+class attendance =  https://github.com/GioGamboaa/CS-portfolio/blob/main/q2/class%20attendance.py
